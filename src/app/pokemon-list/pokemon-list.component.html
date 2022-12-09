@@ -1,0 +1,16 @@
+<div #asgalery id="galery" class="pokemon-grid">
+    <div id="{{pokemon.name}}" class="box" *ngFor="let pokemon of pokemons ">
+        <img class ="poke_img" [src]="pokemon.img" alt="Pokemon">
+        <div class= "box_title">
+        <h3 class="name_pokemon">#{{pokemon.order}} {{pokemon.name}}</h3>
+        </div>
+    </div>
+</div>
+
+
+      <!--<div class= "box_content">
+        <p>Attack Power:{{pokemon.atack}}</p>
+        <p>Type: {{pokemon.types}}</p>
+        <p>Height:{{pokemon.height}}</p>
+        <p>Health:{{pokemon.health}}</p>
+      </div>-->
