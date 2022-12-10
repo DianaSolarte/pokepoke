@@ -1,12 +1,11 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar">
     <div class="nav-items" *ngFor = "let data of datosMenu">
-      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span class="navbar-toggler-icon"></span>
+      <a class="head_pokemon" href="javascript:void(0)"><img src="assets/img/Letrapokemon.png"alt="Logo"></a>
+      <button class="nav" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <button href="#" class="menu_img"><img src="assets/img/icon.png" alt="Ícono Pokebola"></button>
       </button>
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav me-auto">
-
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0)">{{data.titulo}}</a>
           </li>
