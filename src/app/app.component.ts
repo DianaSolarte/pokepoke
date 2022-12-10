@@ -7,21 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'pokedex';
 
-  handleSearch(value:string){
-  console.log(value)
-  }
-
-  constructor(
-    private _http: HttpClient
-
-  ){}
-
-  ngOnInit(){
-
-
-  }
+  datosMenu = [{
+    'titulo':'Equipo Pokemon',
+    'icon':'fa-regular fa-cards-blank',
+    'url':''
+}];
 
 }

@@ -11,12 +11,17 @@ import { MaterialModule } from 'src/shared/material.module';
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule} from '@angular/material/input';
 import { ReactiveFormsModule} from '@angular/forms';
+import { NavComponent } from './nav/nav.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PokemonListComponent,
+    NavComponent,
+
 
   ],
   imports: [
@@ -28,7 +33,8 @@ import { ReactiveFormsModule} from '@angular/forms';
     MatFormFieldModule,
     MatInputModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
