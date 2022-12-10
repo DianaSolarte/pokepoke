@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class NavComponent {
   datosMenu=[{
     'titulo':'Equipo Pokemon',
-    'icon':'fa-regular fa-cards-blank',
-    'url':''
-
-}];
-}
+    'inicio':'Inicio',
+    'blog':'Blog',
+    'contacto':'Contacto',
+},
+]};
